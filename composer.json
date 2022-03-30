@@ -1,0 +1,17 @@
+{
+    "name": "paulcervov/refactoring-guru",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "PhpPatternLearning\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paul Cervov",
+            "email": "paulcervov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
