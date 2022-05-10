@@ -6,7 +6,7 @@ namespace PhpPatternLearning\FactoryMethod\Conceptual;
 
 class ConcreteCreator1 extends Creator
 {
-    function factoryMethod(): Product
+    public function factoryMethod(): Product
     {
         return new ConcreteProduct1();
     }
